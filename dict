@@ -1,0 +1,11 @@
+b=input()
+a=input()
+a=eval(a)
+A = a.get("A")
+B=a.get("B")
+C=a.get("C")
+D=a.get("D")
+c=b.replace("and","+")
+if ("+" in c) or ("or" in c):
+    print(eval(c))
+
